@@ -1,0 +1,30 @@
+h1{
+    color: red;
+    font-size: 4rem;
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-size: 3rem;
+}
+p{
+    background-color: gray;
+}
+strong{    
+    font-weight: normal;
+    color: chartreuse;
+}
+em{    
+    font-style: normal;
+    font-size: 2rem;
+    color: orange;
+    text-decoration: underline;
+}
+#article_3 p{
+    background-color: pink;
+}
+#article_2 h2{
+    text-align: right;
+    color: green;
+    text-decoration: underline;
+}
