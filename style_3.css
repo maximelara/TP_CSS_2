@@ -1,0 +1,81 @@
+ul{
+    color: white;
+}
+li:nth-child(even){
+    background-color: blue;
+}
+li:nth-child(odd){
+    background-color: black;
+}
+ul:hover li:nth-child(even){
+    background-color: black;
+}
+ul:hover li:nth-child(odd){
+    background-color: blue;
+}
+
+
+.exo2 h1{
+    text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.616);
+}
+.exo2 p:nth-child(2){
+    box-shadow: 5px -5px 10px yellow;
+}
+.exo2 p:last-child{
+    box-shadow: -5px 5px 10px green;
+}
+
+
+
+.exo3_1{
+    background-image: linear-gradient(to right top, blue, green, red);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;    
+    border-color: black;
+    border: 2px solid;    
+}
+.exo3_2{
+    background-image: linear-gradient(-250deg, purple 75%,yellow);
+    width: 200px;
+    height: 200px;
+    position: relative; 
+    margin-top: 20px;       
+    border-color: black;
+    border: 2px solid;   
+}
+.exo3_3 p{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(0, 0, 0, 0.50));
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;       
+    border-color: black;
+    border: 2px solid;   
+}
+
+.exo3_4{
+    background-image: radial-gradient(circle at center, rgba(0, 255, 255, 0.30) , pink);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;    
+    border-color: black;
+    border: 2px solid;
+}
+.exo3_4:hover{
+    zoom: 1.05;
+}
+.exo3_5{
+    background-image: repeating-radial-gradient(black, white 10px);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;    
+    border-color: black;
+    border: 2px solid;   
+}
+.exo3_5:hover{
+    background-image: repeating-radial-gradient(white, black 10px);
+}

@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;    
+    border-color: purple;
+    border-style: double;    
+    border-width: 5px;
+    text-align: center;
+}
+caption {
+    color: purple;
+}
+th {
+    background-color: aqua;   
+    border: 2px solid;    
+}
+td {
+    border: 2px solid;    
+}
